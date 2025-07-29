@@ -19,7 +19,7 @@ def test_car_stops_on_red_light():
 
 def test_emergency_vehicle_forced_green_light():
     simulation = TrafficSimulation()
-    emergency_vehicle = EmergencyVehicle("Ambulance", Direction.NORTH)
+    emergency_vehicle = EmergencyVehicle("Ambulances", Direction.NORTH)
     road = Road("North Road", Direction.NORTH)
     road.add_car(emergency_vehicle)
     simulation.roads = [road]
