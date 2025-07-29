@@ -1,3 +1,4 @@
+import pygame
 from TrafficLight import TrafficLight
 from utils import Direction, WINDOW_WIDTH, WINDOW_HEIGHT, WHITE, BLACK, RED, GREEN, YELLOW, BLUE, GRAY, DARK_GRAY, LIGHT_GRAY
 from RoadsCreation import Road
